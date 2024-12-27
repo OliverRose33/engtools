@@ -3,7 +3,7 @@ classdef (Abstract) HyperoperationDown
     properties (Abstract)
         Value
     end
-
+    
     methods
 
         function tf = eq(obj1, obj2)
